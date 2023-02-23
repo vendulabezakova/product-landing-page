@@ -1,0 +1,13 @@
+@use "colors.scss";
+@use "typo.scss";
+
+.logo {
+   background-image: url("images/bg-header-desktop.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+}
+
+header img {
+    padding: 130px 0 30px 0;
+}
