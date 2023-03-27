@@ -10,16 +10,16 @@ body {
 p {
   font-weight: 400;
   padding: 10px 0;
+  font-size: 18px;
 }
 
-section {
+section, header {
   padding: 50px 30px;
 }
 
 h1 {
   font-size: 30px;
   font-weight: 600;
-  padding: 0 30px;
 }
 
 h3 {
@@ -29,7 +29,39 @@ h3 {
 
 a {
   text-decoration: none;
-  color: hsl(210, 10%, 33%);
+  color: #9fabb2;
+}
+
+.buttons {
+  display: inline-block;
+  margin: auto;
+  width: 80%;
+  color: white;
+  font-weight: 600;
+  padding-bottom: 100px;
+}
+
+.button-ios {
+  background-color: #26baa4;
+  padding: 10px 30px;
+  border-radius: 150px;
+  margin-bottom: 20px;
+  box-shadow: 1px 3px 1px #26a592;
+}
+
+.button-mac {
+  background-color: #6173ff;
+  padding: 10px 30px;
+  border-radius: 150px;
+  box-shadow: 1px 3px 1px #4c5bc9;
+}
+
+.button-ios:hover {
+  box-shadow: 0px 8px 24px #c1fff6;
+}
+
+.button-mac:hover {
+  box-shadow: 0px 8px 24px #aab3fd;
 }
 
 .logo {
@@ -40,7 +72,7 @@ a {
 }
 
 header img {
-  padding: 130px 0 30px 0;
+  padding: 100px 0 30px 0;
 }
 
 section img {
@@ -63,13 +95,24 @@ section img {
 }
 
 footer {
-  background-color: hsl(201, 11%, 66%);
+  background-color: #f5f6f8;
   display: flex;
   flex-direction: column;
-  padding: 30px 0;
+  padding-top: 50px;
 }
 
 footer a {
   margin-top: 10px;
   color: hsl(210, 10%, 33%);
+  padding-top: 20px;
+}
+
+footer img {
+  width: 15%;
+  margin: auto;
+}
+
+.social img {
+  width: 30px;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
