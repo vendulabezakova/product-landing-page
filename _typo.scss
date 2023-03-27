@@ -34,3 +34,41 @@ a {
     text-decoration: none;
     color: colors.$color-neutral;
 }
+
+@media screen and (min-width: 1400px) {
+    h1 {
+        font-size: 52px;
+    }
+
+    p {
+        font-size: 21px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    section {
+        padding: 150px 25%;
+    }
+
+    .snippets {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snippets img {
+        margin-left: -200px;
+    }
+
+    .usp {
+        padding: 50px 120px;
+        text-align: left;
+    }
+}

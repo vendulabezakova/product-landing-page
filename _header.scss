@@ -1,0 +1,16 @@
+header img {
+    padding: 100px 0 30px 0;
+}
+
+.logo {
+    background-image: url("images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+ }
+
+ @media screen and (min-width: 1400px) {
+    .logo {
+        background-image: url("images/bg-header-desktop.png");
+    }
+}
